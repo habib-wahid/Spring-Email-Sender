@@ -1,0 +1,21 @@
+GET http://localhost:8080/find-all-employee
+Accept: application/json
+
+###
+POST http://localhost:8080/save-employee
+Content-Type: application/json
+
+{
+  "id": "null",
+  "firstName": "Azom",
+  "lastName": "Shahriar",
+  "role": "team lead"
+}
+
+###
+
+
+GET http://localhost:8080/all-employee
+Accept: application/json
+
+###
