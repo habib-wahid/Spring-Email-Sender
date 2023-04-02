@@ -15,7 +15,7 @@ Content-Type: application/json
 ###
 
 
-GET http://localhost:8080/all-employee
+GET http://localhost:8080/welcome
 Accept: application/json
 
 ###
